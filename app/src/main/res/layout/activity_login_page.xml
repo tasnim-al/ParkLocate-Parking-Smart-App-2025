@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_page"
+    android:background="@drawable/login"
+    android:padding="24dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginBottom="60dp"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="#0C2B4E"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtUsername"
+            android:hint="Username"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:background="@android:drawable/edit_text"
+            android:textColor="#0C2B4E"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtUsernameError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username is required"
+            android:textColor="#DC2626"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:layout_marginBottom="12dp"
+            />
+        <EditText
+            android:id="@+id/edtPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:background="@android:drawable/edit_text"
+            android:textColor="#0C2B4E"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtPasswordError"
+            android:text="Password is required"
+            android:textColor="#DC2626"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="281dp"
+            android:layout_height="62dp"
+            android:backgroundTint="#dc8818"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnGoRegister"
+            android:layout_width="276dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#dc8818"
+            android:text="Sign Up"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

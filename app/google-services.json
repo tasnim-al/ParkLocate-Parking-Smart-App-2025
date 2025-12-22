@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511230835906",
+    "project_id": "parklocate-parking-smart-full",
+    "storage_bucket": "parklocate-parking-smart-full.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511230835906:android:6a86393f84adc3b0040f5b",
+        "android_client_info": {
+          "package_name": "com.example.parklocateparkingsmartfull"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4CxjHQ8nQru4d5EsscQ9LYojb7NRWwRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

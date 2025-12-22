@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".usertype_page"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/ut">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        android:layout_marginBottom="30dp"
+        android:text="Select Account Type"
+        android:textColor="#b0b0b0"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="253dp" />
+    <Button
+        android:id="@+id/btnExisting"
+        android:layout_width="298dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#8FABD4"
+        android:text="Login Account"
+        android:textColor="#0C2B4E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnNewUser"
+        android:layout_width="292dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#8FABD4"
+        android:text="Create New Account"
+        android:textColor="#0C2B4E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

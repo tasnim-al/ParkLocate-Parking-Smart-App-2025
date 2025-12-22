@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/feedb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="374dp"
+        android:layout_height="246dp"
+        android:layout_marginBottom="16dp"
+        android:padding="35dp"
+        android:text="Rate Your Experience"
+        android:textColor="#111827"
+        android:textSize="46sp"
+        android:textStyle="bold" />
+    <RatingBar
+        android:id="@+id/eatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_marginBottom="16dp"
+        android:numStars="5"
+        android:layout_gravity="center"
+        android:stepSize="1" />
+    <EditText
+        android:id="@+id/edFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Write your feedback..."
+        android:minLines="4"
+        android:padding="20dp" />
+    <Button
+        android:id="@+id/btnSubmitFeedbake"
+        android:layout_width="335dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#2563EB"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

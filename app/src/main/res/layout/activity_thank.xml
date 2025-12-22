@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/thank"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtThankTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="87dp"
+        android:layout_marginBottom="12dp"
+        android:text="Thank You!"
+        android:textColor="#1E3A8A"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtThankMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="201dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="We hope you had a great experience."
+        android:textColor="#6B7280"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnBackHome"
+        android:text="Back to Home"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#2563EB"
+        android:layout_width="240dp"
+        android:layout_height="52dp"/>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/fu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/btnFailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="325dp"
+        android:layout_marginBottom="16dp"
+        android:text="X Booking Successful"
+        android:textColor="#E4080A"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/btnFailMsg"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="The Process of reserved Your parking  space has failed."
+        android:textColor="#E4080A"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnFailNext"
+        android:layout_width="203dp"
+        android:layout_height="84dp"
+        android:backgroundTint="#0C2B4E"
+        android:text="Next"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
