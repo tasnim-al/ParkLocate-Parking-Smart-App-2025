@@ -39,4 +39,12 @@
         android:text="Submit"
         android:textSize="20sp"
         android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/api"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2563EB"
+        android:text="more information"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
 </LinearLayout>
